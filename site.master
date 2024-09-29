@@ -1,0 +1,30 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Simulador de Seguros</title>
+    <link href="./site.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <h1>Simulador de Seguros</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="Formulario.aspx">Formulário</a></li>
+                </ul>
+            </nav>
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+            <footer>
+                <p>Simulador de Seguros - Todos os direitos reservados © 2024</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
